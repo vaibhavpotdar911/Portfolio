@@ -31,6 +31,7 @@
 :root{
   --mb-1: 0.5rem;
   --mb-2: 1rem;
+  --mb-2-5:1.25rem;
   --mb-3: 1.5rem;
   --mb-4: 2rem;
   --mb-5: 2.5rem;
@@ -278,12 +279,13 @@ img{
   text-align: center;
 }
 .skills__data{
-  max-width: 225px;
+  max-width: 232px;
+  height: 232px;
   display: block;
   justify-content: center;
   align-items: center;
   font-weight: var(--font-semi);
-  padding: 2.5rem 2.5rem;
+  padding: 2rem 2rem;
   margin-bottom: 2rem;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
@@ -302,6 +304,7 @@ img{
 .skills__names{
   display: flex;
   justify-content: center;
+  padding-top: var(--mb-2);
   text-align: center;
 }
 .skills__bar{
