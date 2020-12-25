@@ -225,8 +225,8 @@ img{
 }
 .home__img{
   position: absolute;
-  right: 0;
-  bottom: 0;
+  top: 24%;
+  left: 60%;
   width: 295px;
 }
 
