@@ -344,8 +344,20 @@ img{
   font-family: 'Montserrat';
   position: absolute;
   top: 10%;
-  left: 8%;
-  right: 8%;
+  left: 5%;
+}
+.work__slash{
+  font-family: 'Montserrat';
+  position: absolute;
+  top: 10%;
+  left: 49%;
+  color: rgb(170, 170, 170);
+}
+.work__repo{
+  font-family: 'Montserrat';
+  position: absolute;
+  top: 10%;
+  left: 51.5%;
 }
 .work__img img{
   transition: 1s;
