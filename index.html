@@ -10,10 +10,7 @@
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
         <!--GOOGLE FONT API-->
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&family=Raleway&display=swap" rel="stylesheet">
         <title>VaibhavPotdar</title>
 
         <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
@@ -24,10 +21,12 @@
         <meta property="og:title"         content="vaibhav-potdar" />
         <meta property="og:description"   content="Facebook Profile" />
         <meta property="og:image"         content="assets/img/perfil.png" />
-
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-form@4.3.0/dist/jquery.form.min.js" integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA=" crossorigin="anonymous"></script>
+        <script src="assets/js/contact.js"></script>
     </head>
     <body style="font-family: 'Raleway';">
-        <!--===== HEADER =====-->
+        <!--===== NAVBAR =====-->
         <header class="l-header">
             <nav class="nav bd-grid">
                 <div>
@@ -54,7 +53,7 @@
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__img">    
-                    <img style="border-radius: 50%;" src="assets/img/profile.JPG" alt="Profile image">
+                    <img style="border-radius: 50%; max-width: 80%;" src="assets/img/profile.JPG" alt="Profile image">
                 </div>
                 <div class="home__data">
                     <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Vaibhav Potdar</span>,<br>Software Developer</h1>
@@ -97,7 +96,6 @@
             <!--===== SKILLS =====-->
             <section class="skills section" id="skills">
                 <h2 class="section-title">Skills</h2>
-
                 <div class="skills__container bd-grid-skills">          
                     <div>
                         <h2 class="skills__subtitle">Profesional Skills</h2>
@@ -107,61 +105,61 @@
                     </div>
                     <div class="row">
                         <div class="column skills__data">
-                            <img class="img__skills" src="assets/img/skills/python.png" alt="Python Logo" />
+                            <img class="img__skills" src="assets/img/skills/python.png" style="max-width: 80%;" alt="Python Programming" />
                             <div class="skills__names">
                                 <span>Python</span>
                             </div>
                         </div>
                         <div class="column skills__data">
-                            <img class="img__skills" src="assets/img/skills/java.png">
+                            <img class="img__skills" src="assets/img/skills/java.png" style="max-width: 80%;" alt="Java" >
                             <div class="skills__names">
                                 <span>Java</span>
                             </div>
                         </div>
                         <div class="column skills__data">
-                            <img class="img__skills" src="assets/img/skills/js.png">
+                            <img class="img__skills" src="assets/img/skills/js.png" style="max-width: 80%;" alt="Javascript" >
                             <div class="skills__names">
                                 <span>Javascript</span>
                             </div>
                         </div>
                         <div class="column skills__data">
-                            <img class="img__skills" src="assets/img/skills/aws.png">
+                            <img class="img__skills" src="assets/img/skills/aws.png" style="max-width: 80%;" alt="AWS Services" >
                             <div class="skills__names">
                                 <span>Amazon Web Services</span>
                             </div>
                         </div>
                         <div class="column skills__data">
-                            <img class="img__skills" src="assets/img/skills/django.png">
+                            <img class="img__skills" src="assets/img/skills/django.png" style="max-width: 80%;" alt="Django Framework" >
                             <div class="skills__names">
                                 <span>Django</span>
                             </div>
                         </div>
                         <div class="column skills__data">
-                            <img class="img__skills" src="assets/img/skills/database.png">
+                            <img class="img__skills" src="assets/img/skills/database.png" style="max-width: 80%;" alt="Database Management Services" >
                             <div class="skills__names">
                                 <span>RDBMS</span>
                             </div>
                         </div>
                         <div class="column skills__data">
-                            <img class="img__skills" src="assets/img/skills/flutter.png">
+                            <img class="img__skills" src="assets/img/skills/flutter.png" style="max-width: 80%;" alt="Flutter" >
                             <div class="skills__names">
                                 <span>Flutter</span>
                             </div>
                         </div>
                         <div class="column skills__data">
-                            <img class="img__skills" src="assets/img/skills/nodejs.png">
+                            <img class="img__skills" src="assets/img/skills/nodejs.png" style="max-width: 80%;" alt="NodeJS" >
                             <div class="skills__names">
                                 <span>NodeJS</span>
                             </div>
                         </div>
                         <div class="column skills__data">
-                            <img class="img__skills" src="assets/img/skills/linux.png">
+                            <img class="img__skills" src="assets/img/skills/linux.png" style="max-width: 80%;" alt="Linux Administration" >
                             <div class="skills__names">
                                 <span>Linux Administration</span>
                             </div>
                         </div>
                         <div class="column skills__data">
-                            <img class="img__skills" src="assets/img/skills/c.png">
+                            <img class="img__skills" src="assets/img/skills/c.png" style="max-width: 80%;" alt="C/C++" >
                             <div class="skills__names">
                                 <span>C / C++</span>
                             </div>
@@ -176,27 +174,34 @@
 
                 <div class="work__container bd-grid">
                     <div class="work__img">
-                        <div class="github-card" data-github="vaibhavpotdar911/Full-fleged-blog-app" data-width="400" data-height="" data-theme="default"></div>
+                        <a class="work__text" href="https://github.com/vaibhavpotdar911/Full-fleged-blog-app">vaibhavpotdar911/Full-fleged-blog-app</a>
+                        <img src="assets/img/work/work.png" alt="djangoProject">
+                        <img class="languages__two" src="assets/img/work/django.PNG" alt="Languages used">
+                    </div>    
+                    <div class="work__img">
+                        <a class="work__text" href="https://github.com/vaibhavpotdar911/Portfolio">vaibhavpotdar911/djangoProject</a>
+                        <img src="assets/img/work/work.png" alt="djangoProject">
+                        <img class="languages__two" src="assets/img/work/portfolio.PNG" alt="Languages used">
                     </div>
                     <div class="work__img">
-                        <a href="https://github.com/vaibhavpotdar911/djangoProject">
-                        <img src="assets/img/work2.jpg" alt="djangoProject"></a>
+                        <a class="work__text" href="https://github.com/vaibhavpotdar911/Tetris">vaibhavpotdar911/Tetris</a>
+                        <img src="assets/img/work/work.png" alt="Tetris Game">
+                        <img class="languages__one" src="assets/img/work/python.PNG" alt="Languages used">
                     </div>
                     <div class="work__img">
-                        <a href="https://github.com/vaibhavpotdar911/Tetris">
-                        <img src="assets/img/work3.jpg" alt="Tetris Game"></a>
+                        <a class="work__text" href="https://github.com/vaibhavpotdar911/Bluebee">vaibhavpotdar911/Bluebee</a>
+                        <img src="assets/img/work/work.png" alt="BlueBee Android app">
+                        <img class="languages__two" src="assets/img/work/flutter.PNG" alt="Languages used">
                     </div>
                     <div class="work__img">
-                        <a href="https://github.com/vaibhavpotdar911/Tic-Tac-Toe">
-                        <img src="assets/img/work4.jpg" alt="Tic-Tac-Toe Game"></a>
+                        <a class="work__text" href="https://github.com/vaibhavpotdar911/dungeonGame">vaibhavpotdar911/dungeonGame</a>
+                        <img src="assets/img/work/work.png" alt="dungeon Game">
+                        <img class="languages__one" src="assets/img/work/python.PNG" alt="Languages used">
                     </div>
                     <div class="work__img">
-                        <a href="https://github.com/vaibhavpotdar911/dungeonGame">
-                        <img src="assets/img/work5.jpg" alt="dungeon Game"></a>
-                    </div>
-                    <div class="work__img">
-                        <a href="https://github.com/vaibhavpotdar911/AttendanceSystem">
-                        <img src="assets/img/work6.jpg" alt=""></a>
+                        <a class="work__text" href="https://github.com/vaibhavpotdar911/AttendanceSystem">vaibhavpotdar911/AttendanceSystem</a>
+                        <img src="assets/img/work/work.png" alt="AttendanceSystem">
+                        <img class="languages__one" src="assets/img/work/python.PNG" alt="Languages used">
                     </div>
                 </div>
             </section>
@@ -206,11 +211,35 @@
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input" placeholder="Add some description here..."></textarea>
-                        <input type="button" value="Submit" class="contact__button button">
+                    <form action="https://docs.google.com/forms/d/e/1FAIpQLScLFh3JZtVCkfbB6TAMzZDI0XU6YjhAt6hE3_YfGWoALho2PQ/formResponse" target="_self" id="bootstrapForm" method="POST" class="contact__form">
+                        <!-- Field type: "short" id: "1633920210" -->
+                        <fieldset>
+                            <div class="form-group">
+                                <input id="2005620554" type="text" placeholder="Name" name="entry.2005620554" class="contact__input" required>
+                            </div>
+                        </fieldset>
+                        <!-- Field type: "short" id: "227649005" -->
+                        <fieldset>
+                            <div class="form-group">
+                                <input id="1045781291" type="text" placeholder="Email" name="entry.1045781291" class="contact__input" required>
+                            </div>
+                        </fieldset>
+                        <!-- Field type: "short" id: "1770822543" -->
+                        <fieldset>
+                            <div class="form-group">
+                                <input id="1166974658" type="text" placeholder="Contact Number" name="entry.1166974658" class="contact__input" required>
+                            </div>
+                        </fieldset>
+                        <!-- Field type: "paragraph" id: "1846923513" -->
+                        <fieldset>
+                            <div class="form-group">
+                                <textarea id="839337160" cols="0" rows="8" placeholder="Add some Additional Information..." name="entry.839337160" class="contact__input"></textarea>
+                            </div>
+                        </fieldset>
+                        <input type="hidden" name="fvv" value="1">
+                        <input type="hidden" name="fbzx" value="3344273542975514899">
+                        <input type="hidden" name="pageHistory" value="0">
+                        <input class="contact__button button" type="submit" value="Submit">
                     </form>
                 </div>
             </section>
@@ -231,11 +260,13 @@
         <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
         <!--BOOTSTRAP MIN JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-
+        <!--JQUERY PLUGINS-->
+        
         <!--===== SCROLL REVEAL =====-->
         <script src="https://unpkg.com/scrollreveal"></script>
-
         <!--===== MAIN JS =====-->
         <script src="assets/js/main.js"></script>
+        <!--CONTACT JS-->
+        <script src="assets/js/contact.js"></script>
     </body>
 </html>

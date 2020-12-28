@@ -71,7 +71,7 @@ a{
   text-decoration: none;
 }
 img{
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
   display: block;
 }
@@ -334,19 +334,36 @@ img{
 
 /* ===== WORK =====*/
 .work__container{
-  row-gap: 2rem;
+  row-gap: 4rem;
 }
 .work__img{
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
-  border-radius: .5rem;
+  border-radius: 1rem;
   overflow: hidden;
+  position: relative;
+}
+.work__text{
+  font-family: 'Montserrat';
+  position: absolute;
+  top: 10%;
+  left: 8%;
+  right: 8%;
 }
 .work__img img{
   transition: 1s;
   cursor: pointer;
 }
-.work__img img:hover{
-  transform: scale(1.1);
+.languages__two{
+  max-width: 75%;
+  position: absolute;
+  bottom: 0%;
+  left: 5%;
+}
+.languages__one{
+  max-width: 75%;
+  position: absolute;
+  bottom: 11%;
+  left: 5%;
 }
 
 /* ===== CONTACT =====*/
